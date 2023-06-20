@@ -67,6 +67,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	<!-- Bootstrap core CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="<?php echo base_url();?>/assets/plugins/datepicker/datepicker3.css" rel="stylesheet" type="text/css" />
 	<link href="<?php echo base_url();?>/assets/css/app.css?<?php echo time() ?>" rel="stylesheet" type="text/css" />
 	<?php
 	if (isset($css) && count($css)) {

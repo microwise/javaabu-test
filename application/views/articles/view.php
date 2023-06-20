@@ -1,15 +1,15 @@
 <div class="container article">
 	<div class="row justify-content-center">
 		<div class="col-12">
-			<a href="<?php echo base_url() ?>" class="btn ui-btn"><i class="far fa-fw fa-arrow-left"></i> Back</a>
+			<a href="<?php echo base_url() ?>" class="btn ui-btn ui-btn-primary"><i class="fa fa-fw fa-arrow-left"></i> Back</a>
 		</div>
 		<div class="col-12 mt-3">
-			<h2 class="article-title">Boruto: Naruto Next Generations Episode 227 gets title ‘Team 7's Last Mission!’</h2>
+			<h1 class="article-title p-0">Boruto: Naruto Next Generations Episode 227 gets title ‘Team 7's Last Mission!’</h1>
 		</div>
 		<div class="col-6"><small>12 December 2022</small></div>
 		<div class="col-6 article-actions text-right">
-			<a href="#" class="article-action">Edit</a>
-			<a href="#" class="article-action">Delete</a>
+			<a href="#" class="article-action" data-action="edit" data-id="21"><i class="fa fa-pencil"></i></a>
+			<a href="#" class="article-action" data-action="delete" data-id="21"><i class="fa fa-trash"></i></a>
 		</div>
 		<div class="col-12 mt-3">
 			<img class="img-fluid" src="<?php echo base_url().'/media/images/kimetsu-no-yaiba-anime-4k-yn-1360x768.jpg' ?>" alt="Demon Slayer">
