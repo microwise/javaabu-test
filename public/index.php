@@ -54,7 +54,7 @@
  * NOTE: If you change these, also change the error_reporting() code below
  */
 	// define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development');
-	define('ENVIRONMENT', in_array($_SERVER['SERVER_ADDR'],['172.26.12.79']) ? 'production' : 'development');
+	const ENVIRONMENT = 'development';
 /*
  *---------------------------------------------------------------
  * ERROR REPORTING

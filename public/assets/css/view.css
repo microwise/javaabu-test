@@ -1,0 +1,21 @@
+.article {
+	color: #6E6D6A;
+}
+
+.article .article-title {
+	font-size: 25px;
+	font-weight: bold;
+	border: none;
+}
+
+.article .article-actions .article-action {
+	display: inline-block;
+	margin-left: 10px;
+	font-size: 15px;
+	color: #6E6D6A;
+}
+
+.article .article-actions .article-action:hover {
+	text-decoration: none;
+	color: #E84E15;
+}
